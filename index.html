@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    </head>
+<body>
+<form>
+    <input type="text">
+    <div></div>
+    <input type="text">
+    <div></div>
+    <button type="submit">Submit</button><button type="reset" id="clear">Reset</button>
+</form>
+<h2>Distance: <span id="distance"></span></h2>
+<div id="map-canvas"></div>
+<script id="config" type="text/plain">
+    {
+        "api_key": "55b0f94f15554a9bf30970b0b50efc24",
+        "autocomplete_url": "https://airport.api.aero/airport/match/",
+        "units": "mile",
+        "distance_url":"https://airport.api.aero/airport/distance/"
+    }
+</script>
+<script src="domready.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Simple demonstration calculating distances between Longitude and Latitude points utilzing the Haversine formula, jQuery Autocomplete, and Google Maps API.
