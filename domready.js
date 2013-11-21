@@ -8,7 +8,7 @@
             .script("http://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js")
             .script("https://raw.github.com/devbridge/jQuery-Autocomplete/master/dist/jquery.autocomplete.min.js")
             .script("http://maps.google.com/maps/api/js?v=3.exp&sensor=false&async=2")
-            .script("http://maps.gstatic.com/intl/en_us/mapfiles/api-3/14/0/main.js")
+            .script("http://maps.gstatic.com/intl/en_us/mapfiles/api-3/15/1/main.js")
             //.script("http://www.movable-type.co.uk/scripts/geo.js")
             //.script("http://www.movable-type.co.uk/scripts/latlon.js")
             .script("script.js");
